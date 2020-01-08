@@ -26,7 +26,7 @@ messages (e.g. if two different peers deliver them).
 ```js
 var pubsub = require('pubsub-swarm')
 
-var swarm = pubsub('foobar')
+var swarm = pubsub('the-topic')
 
 swarm.on('message', function (msg) {
   console.log('message', msg)
