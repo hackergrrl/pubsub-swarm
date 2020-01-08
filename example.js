@@ -8,5 +8,5 @@ swarm.on('message', function (msg) {
 })
 
 swarm.on('connected', function () {
-  swarm.publish({ data: 'hello warld from ' + this.id + '!'})
+  swarm.publish({ data: 'hello world from ' + this.id + '!'})
 })
