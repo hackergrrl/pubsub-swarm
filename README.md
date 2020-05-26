@@ -11,8 +11,8 @@ a deeper understanding of distributed systems.
 
 This module doesn't make guarantees about latencies, nor does it guarantee
 delivery. Gossip isn't as fast as flooding, but it's a very robust means of
-propogating data over an unstructured network. If the network is stable message
-should reach eveyr node, but partitions can occur in the network and bridging
+propagating data over an unstructured network. If the network is stable message
+should reach every node, but partitions can occur in the network and bridging
 peers can drop out at any time.
 
 Messages are cryptographically signed by their creator and given a unique
