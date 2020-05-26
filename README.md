@@ -35,7 +35,7 @@ swarm.on('message', function (msg) {
 })
 
 swarm.on('connected', function () {
-  swarm.publish({ data: 'hello warld from ' + this.id + '!'})
+  swarm.publish({ data: 'hello world from ' + this.id + '!'})
 })
 ```
 
@@ -50,10 +50,10 @@ Running this in two terminals shows the message exchange:
 
 ```
 found + connected to peer
-message { data: 'hello warld from
+message { data: 'hello world from
 WpiDF+5f+HRTrm2JOmNHTPyGlYGpAN3QNNwwsu3RtbY=.ed25519!' }
 found + connected to peer
-message { data: 'hello warld from
+message { data: 'hello world from
 JxafbAD7qjHCpQY+G/2i1B7vMmBlNTC7HEh9GfP+5yY=.ed25519!' }
 ```
 
